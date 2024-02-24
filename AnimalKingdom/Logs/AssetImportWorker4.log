@@ -1,0 +1,853 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15711 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\UNITY ENGINE\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+G:/UNITY PROJECTS/Animal-Kingdom/AnimalKingdom
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51213
+Successfully changed project path to: G:/UNITY PROJECTS/Animal-Kingdom/AnimalKingdom
+G:/UNITY PROJECTS/Animal-Kingdom/AnimalKingdom
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25200] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3629625726 [EditorId] 3629625726 [Version] 1048832 [Id] WindowsEditor(7,DREAMX) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25200] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3629625726 [EditorId] 3629625726 [Version] 1048832 [Id] WindowsEditor(7,DREAMX) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 19.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path G:/UNITY ENGINE/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/UNITY PROJECTS/Animal-Kingdom/AnimalKingdom/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7855 MB
+    Driver:   31.0.12002.7004
+Initialize mono
+Mono path[0] = 'G:/UNITY ENGINE/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'G:/UNITY ENGINE/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/UNITY ENGINE/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/UNITY ENGINE/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: G:/UNITY ENGINE/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: G:/UNITY ENGINE/2022.3.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: G:/UNITY ENGINE/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010716 seconds.
+- Loaded All Assemblies, in  0.791 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 486 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.248 seconds
+Domain Reload Profiling: 2039ms
+	BeginReloadAssembly (253ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (329ms)
+			TypeCache.Refresh (326ms)
+				TypeCache.ScanAssembly (297ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1249ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1126ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (737ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.625 seconds
+Refreshing native plugins compatible for Editor in 7.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.786 seconds
+Domain Reload Profiling: 3410ms
+	BeginReloadAssembly (280ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (1168ms)
+		LoadAssemblies (751ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (582ms)
+			TypeCache.Refresh (509ms)
+				TypeCache.ScanAssembly (463ms)
+			ScanForSourceGeneratedMonoScriptInfo (59ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1787ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (1133ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 7.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5182 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 160 unused Assets / (8.4 MB). Loaded Objects now: 5593.
+Memory consumption went from 301.2 MB to 292.8 MB.
+Total: 13.871300 ms (FindLiveObjects: 0.543100 ms CreateObjectMapping: 0.286400 ms MarkObjects: 8.027600 ms  DeleteObjects: 5.012000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24796.826117 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/skyscraperE.dae
+  artifactKey: Guid(aa3473f0fce05ed43b27743f71dd420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/skyscraperE.dae using Guid(aa3473f0fce05ed43b27743f71dd420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5867e47ee0d523546e31d8f772626f6d') in 0.323026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/small_buildingA.obj
+  artifactKey: Guid(b583bffed043fe34db82e7730a8d0570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/small_buildingA.obj using Guid(b583bffed043fe34db82e7730a8d0570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b961485e59e0a39faada13952c93e63') in 0.072968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.875958 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/skyscraperC.obj
+  artifactKey: Guid(83943598df6678f44874eccb433a9717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/skyscraperC.obj using Guid(83943598df6678f44874eccb433a9717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fee3febe8ee0acfe7d40fb194f0edc') in 0.118158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/skyscraperE.obj
+  artifactKey: Guid(0e54c4fa556c25741a1313015e2a41ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/skyscraperE.obj using Guid(0e54c4fa556c25741a1313015e2a41ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bb64883a6366390ac8bfea530b31c6') in 0.093459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.178232 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/small_buildingC.dae
+  artifactKey: Guid(dda56041a8c4b014eb6a9aa7fc9765cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/small_buildingC.dae using Guid(dda56041a8c4b014eb6a9aa7fc9765cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce33ea24f00f4c829e6ad1bb0df3eb21') in 0.076060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/skyscraperD.dae
+  artifactKey: Guid(e3f30910d08de4d4ca13c071bf459a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/skyscraperD.dae using Guid(e3f30910d08de4d4ca13c071bf459a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741eaaa0c86d3076c8f5840b25056fc5') in 0.086388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_windowC.dae
+  artifactKey: Guid(db5bad6517e7cb44ca518d5b6d571f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_windowC.dae using Guid(db5bad6517e7cb44ca518d5b6d571f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276bfb6ccb652bae92c8e60df57feb53') in 0.054080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_windowF.dae
+  artifactKey: Guid(a619efea51b2f8b49901186e00702742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_windowF.dae using Guid(a619efea51b2f8b49901186e00702742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffed4a04b7480162c6976fac7d469b14') in 0.054097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_windowB.dae
+  artifactKey: Guid(2fcaa22108d0dea4ebf4b14a16030e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_windowB.dae using Guid(2fcaa22108d0dea4ebf4b14a16030e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623af6b2ce35dee566f248086d97dcbe') in 0.055926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/small_buildingC.obj
+  artifactKey: Guid(9e224feeaeab6b34cb8fb77a73218155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/small_buildingC.obj using Guid(9e224feeaeab6b34cb8fb77a73218155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bd345d910230b8e29703eb32f396ab') in 0.082508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/small_buildingF.dae
+  artifactKey: Guid(14144014d870a334e8f850ba8d15e1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/small_buildingF.dae using Guid(14144014d870a334e8f850ba8d15e1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04db40f5e8168bda11ce7b679f6bc94b') in 0.066971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_solid.dae
+  artifactKey: Guid(9879654aa5ad10040a3bf4f212756da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_solid.dae using Guid(9879654aa5ad10040a3bf4f212756da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef89a40f71af22206c374c0214e53733') in 0.053327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_windowA.dae
+  artifactKey: Guid(ce52c333547b1cb4c8705690e98b233d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_windowA.dae using Guid(ce52c333547b1cb4c8705690e98b233d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86a95e718a7cc2f2c16f026cf056ead') in 0.056916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/skyscraperC.dae
+  artifactKey: Guid(b1b87e9818562ac4685a79a6b91cc97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/skyscraperC.dae using Guid(b1b87e9818562ac4685a79a6b91cc97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b197bc59e1c339866b4eb7f3b04194') in 0.086026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/wall_windowC.obj
+  artifactKey: Guid(d8d5371566492aa4e8b3744eadbbbe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/wall_windowC.obj using Guid(d8d5371566492aa4e8b3744eadbbbe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e29c75b60abf764aafcc7686bd07ce') in 0.064520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/wall_windowA.obj
+  artifactKey: Guid(92fc9f7ccb17a72499ef5fa1da259775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/wall_windowA.obj using Guid(92fc9f7ccb17a72499ef5fa1da259775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4159aeaf516a2fc2b804b6bc0f028aba') in 0.063102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/wall_windowB.obj
+  artifactKey: Guid(61229b702128ed945a224abb230e29e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/wall_windowB.obj using Guid(61229b702128ed945a224abb230e29e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9736f567ae9075c16904147434592ed7') in 0.064206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_windowD.dae
+  artifactKey: Guid(0555f4069b14de843b6f3baba658c453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/DAE format/wall_windowD.dae using Guid(0555f4069b14de843b6f3baba658c453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c86bfafeb36d913d8b916d1450f127a') in 0.058581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.230804 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingJ.obj
+  artifactKey: Guid(7d204b412ee96f645b77f4c8196b8370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingJ.obj using Guid(7d204b412ee96f645b77f4c8196b8370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c389f93c4662788dab41d47e81ffc70') in 0.062873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingF.obj
+  artifactKey: Guid(d058e1a3c2dc60a468129913f0ba4ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingF.obj using Guid(d058e1a3c2dc60a468129913f0ba4ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4740e9292629e372b6377e0a2242a2ed') in 0.054747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/large_buildingC.obj
+  artifactKey: Guid(ed45676b5f5e1bd44b71d316c8320475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/large_buildingC.obj using Guid(ed45676b5f5e1bd44b71d316c8320475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a4549741914eb38ad1688695f1b045') in 0.102062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/large_buildingB.obj
+  artifactKey: Guid(c77a89f30f338744c9b0b29718660a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/large_buildingB.obj using Guid(c77a89f30f338744c9b0b29718660a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4564954d3f867891a74015f421b2e38d') in 0.084657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/roof_overhang.obj
+  artifactKey: Guid(6ba5dc3189ceb3c4ba2be6b3ded0b1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/roof_overhang.obj using Guid(6ba5dc3189ceb3c4ba2be6b3ded0b1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37c593bcdf5bc7783b704871ae0980d') in 0.060087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingM.obj
+  artifactKey: Guid(38f7776fb7015664f94077723ca7b083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingM.obj using Guid(38f7776fb7015664f94077723ca7b083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2010c352197f35b37134d72d38d148a1') in 0.057561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/large_buildingE.obj
+  artifactKey: Guid(c693cade69b38dd488783897d484dfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/large_buildingE.obj using Guid(c693cade69b38dd488783897d484dfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30f17ef5c570168c6ff56a856ebc000') in 0.087206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/large_buildingF.obj
+  artifactKey: Guid(4accec63f12fdac43b33830ce5edf89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/large_buildingF.obj using Guid(4accec63f12fdac43b33830ce5edf89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52a32052c9950100d61d11d6caa711f') in 0.090298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/large_buildingG.obj
+  artifactKey: Guid(d7799b212f8d3c14c9a3745602d2328b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/large_buildingG.obj using Guid(d7799b212f8d3c14c9a3745602d2328b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0999780b4942be50cfd65ad92184b355') in 0.068716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/sign_hospital.obj
+  artifactKey: Guid(2393fe8a5db940d4f93891e7b99afc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/sign_hospital.obj using Guid(2393fe8a5db940d4f93891e7b99afc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda1f7b12caa29bbdcc208c79ec97922') in 0.069760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingI.obj
+  artifactKey: Guid(75e37efb9efc7444ead26f0d5637ae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingI.obj using Guid(75e37efb9efc7444ead26f0d5637ae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df99c649dccc919c18cd4ff666293b74') in 0.066442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingN.obj
+  artifactKey: Guid(88f6bfd08e0e8fe42803ec4f825b80bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingN.obj using Guid(88f6bfd08e0e8fe42803ec4f825b80bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a38aeff4b2960a31d002e40bedd69c3') in 0.054277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingE.obj
+  artifactKey: Guid(c0b11fb4c7fc0c146bda2f3c409a9246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingE.obj using Guid(c0b11fb4c7fc0c146bda2f3c409a9246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8e9a1f44ecd383d7ce84a2e50f41d6') in 0.047984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.572264 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/roof_side.obj
+  artifactKey: Guid(64c1d15c305bf5047abd8083f95c8464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/roof_side.obj using Guid(64c1d15c305bf5047abd8083f95c8464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd656cdcab2a35ce11c051fa600db5a6') in 0.065361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.024955 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingL.obj
+  artifactKey: Guid(16a0f59a1ca9b8348b32d95a05745de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingL.obj using Guid(16a0f59a1ca9b8348b32d95a05745de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8110f30f7bd7c4fabdbb6d56f09ced57') in 0.055741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.063501 seconds.
+  path: Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingA.obj
+  artifactKey: Guid(244b8068a9bec154b8e1a3a458863ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/kenney_city-kit-commercial/Models/OBJ format/low_buildingA.obj using Guid(244b8068a9bec154b8e1a3a458863ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e069977bf347b809fdc4d189e3b5ddf') in 0.055260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 192.497262 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials
+  artifactKey: Guid(ac919e1bd5cacba4da41f0d0f929fbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials using Guid(ac919e1bd5cacba4da41f0d0f929fbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5939d8d6bd3ca99c34019a9adb3deb7b') in 0.000763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015902 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/Fence_11_Door_Fence_11_Door_map_Diffuse.mat
+  artifactKey: Guid(a49893c2e20059e4f8043cb844ca2170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/Fence_11_Door_Fence_11_Door_map_Diffuse.mat using Guid(a49893c2e20059e4f8043cb844ca2170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caebad611fd86f426a880cce7189247') in 0.013379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 53.699891 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/New Material.mat
+  artifactKey: Guid(929ca2956c0f1464a9f5e850a44da0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/New Material.mat using Guid(929ca2956c0f1464a9f5e850a44da0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc6ee9ac40c28ce8f12270178dea3e8') in 0.012004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.538 seconds
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.392 seconds
+Domain Reload Profiling: 1930ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (771ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (592ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (8.5 MB). Loaded Objects now: 5639.
+Memory consumption went from 286.9 MB to 278.5 MB.
+Total: 7.881800 ms (FindLiveObjects: 0.458000 ms CreateObjectMapping: 0.211200 ms MarkObjects: 4.288500 ms  DeleteObjects: 2.922200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1550.013932 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/Example_Texture_1_Emissive.mat
+  artifactKey: Guid(f07242c14a7673a41bc67fc64edc1a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/Example_Texture_1_Emissive.mat using Guid(f07242c14a7673a41bc67fc64edc1a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ccd5c94a2f3761e7dc05df30847d58') in 0.118074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/Fence_11_DE_Fence_11_DE_map_Diffuse.mat
+  artifactKey: Guid(535a1a5ddd42b044b9d37ca75e803bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/Fence_11_DE_Fence_11_DE_map_Diffuse.mat using Guid(535a1a5ddd42b044b9d37ca75e803bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbfa4e3695a2f75d934bcd3b551661a') in 0.017302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/Post_and_Broken_Pieces_Post_and_Broken_Pieces_map_Diffuse.mat
+  artifactKey: Guid(11b29bea4e5804b49a0b8b6e517021d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/Post_and_Broken_Pieces_Post_and_Broken_Pieces_map_Diffuse.mat using Guid(11b29bea4e5804b49a0b8b6e517021d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f2ada384a403932c34438b6f58ff26') in 0.022727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/Fence_17_Door_Fence_17_Door_map_Diffuse.mat
+  artifactKey: Guid(24b260906615e2e41af6788ba1cf7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/Fence_17_Door_Fence_17_Door_map_Diffuse.mat using Guid(24b260906615e2e41af6788ba1cf7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee11ea96c906fecec8abc7a6d723b50b') in 0.015800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.654892 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/white.mat
+  artifactKey: Guid(a22841568d5817a4db0cb8a8fa6cc382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Materials/white.mat using Guid(a22841568d5817a4db0cb8a8fa6cc382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28b7088928f0334409d6c93b9dd3c09') in 0.013301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.495 seconds
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.342 seconds
+Domain Reload Profiling: 1836ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (252ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1343ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (777ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (604ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (8.4 MB). Loaded Objects now: 5642.
+Memory consumption went from 288.8 MB to 280.4 MB.
+Total: 7.847500 ms (FindLiveObjects: 0.493300 ms CreateObjectMapping: 0.188900 ms MarkObjects: 3.867500 ms  DeleteObjects: 3.296600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.517 seconds
+Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.314 seconds
+Domain Reload Profiling: 1831ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1315ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (741ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (8.4 MB). Loaded Objects now: 5645.
+Memory consumption went from 290.9 MB to 282.5 MB.
+Total: 8.815300 ms (FindLiveObjects: 0.395600 ms CreateObjectMapping: 0.185100 ms MarkObjects: 4.612900 ms  DeleteObjects: 3.620400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.517 seconds
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.265 seconds
+Domain Reload Profiling: 1782ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1266ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (751ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (583ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 6.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (8.3 MB). Loaded Objects now: 5648.
+Memory consumption went from 292.9 MB to 284.5 MB.
+Total: 7.299400 ms (FindLiveObjects: 0.398100 ms CreateObjectMapping: 0.198000 ms MarkObjects: 3.973400 ms  DeleteObjects: 2.728400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.601 seconds
+Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 13.693 seconds
+Domain Reload Profiling: 18294ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (154ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (4165ms)
+		LoadAssemblies (4287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (13694ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (925ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (584ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)

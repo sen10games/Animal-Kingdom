@@ -1259,3 +1259,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.881 seconds
+Refreshing native plugins compatible for Editor in 6.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.576 seconds
+Domain Reload Profiling: 3454ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (557ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1516ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (80ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (1171ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 7.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 129 unused Assets / (8.4 MB). Loaded Objects now: 5679.
+Memory consumption went from 311.0 MB to 302.5 MB.
+Total: 14.993800 ms (FindLiveObjects: 1.179400 ms CreateObjectMapping: 0.558100 ms MarkObjects: 7.064400 ms  DeleteObjects: 6.189700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1294.630410 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence
+  artifactKey: Guid(77d184df464ecb6498b0fe8e0932810e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence using Guid(77d184df464ecb6498b0fe8e0932810e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd97d1fb0aab4ec697188c6b5755858') in 0.003728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.973160 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/source
+  artifactKey: Guid(aa05dec71e00049438625648420cee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/source using Guid(aa05dec71e00049438625648420cee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bc476e4673a987646134750f5abc62') in 0.002118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067939 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/source/zaborchik.fbx
+  artifactKey: Guid(5525f07a240947448afb4e0b36536649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/source/zaborchik.fbx using Guid(5525f07a240947448afb4e0b36536649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acd04e3d1c2fdefba3efcdd73917dd2') in 0.210608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 7.920769 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/textures
+  artifactKey: Guid(a59a84ae78cf5314197f36cc511ff999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/textures using Guid(a59a84ae78cf5314197f36cc511ff999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f968335991b78489cd521bc1884b723a') in 0.000910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071777 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Base_color.png
+  artifactKey: Guid(24b4b815423b8d146b0d353bcb559431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Base_color.png using Guid(24b4b815423b8d146b0d353bcb559431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc9d7abefe732d350125f2131c85848') in 0.055029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Roughness.png
+  artifactKey: Guid(5325f7f189d6ee140957dd17790de379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Roughness.png using Guid(5325f7f189d6ee140957dd17790de379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bd46714099973bb7f787f8a05cacec') in 0.034461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Mixed_AO.png
+  artifactKey: Guid(a50430f82ddb60144b11b7d49b87d2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Mixed_AO.png using Guid(a50430f82ddb60144b11b7d49b87d2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcebf0cda1249ccc9fdcfd1199045d46') in 0.031664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

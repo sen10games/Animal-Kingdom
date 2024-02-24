@@ -1091,3 +1091,373 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.911 seconds
+Refreshing native plugins compatible for Editor in 8.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.527 seconds
+Domain Reload Profiling: 3436ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (454ms)
+		LoadAssemblies (582ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2528ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1488ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (81ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (1147ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 8.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (8.4 MB). Loaded Objects now: 5677.
+Memory consumption went from 311.1 MB to 302.7 MB.
+Total: 15.250500 ms (FindLiveObjects: 0.964200 ms CreateObjectMapping: 0.479200 ms MarkObjects: 7.500500 ms  DeleteObjects: 6.304800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1300.990043 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Metallic.png
+  artifactKey: Guid(d2be6f358ae4654479468e29735d62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Metallic.png using Guid(d2be6f358ae4654479468e29735d62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cf62b4e469606d6f38ed2b98c972eb') in 0.121505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Normal_OpenGL.png
+  artifactKey: Guid(82429c54c5c8071409211e0a18e5e464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Normal_OpenGL.png using Guid(82429c54c5c8071409211e0a18e5e464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dadeb5586e50d53076ed09506319c14') in 0.031216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 69.617943 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Base_color.png
+  artifactKey: Guid(24b4b815423b8d146b0d353bcb559431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Base_color.png using Guid(24b4b815423b8d146b0d353bcb559431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b4611f6b29fbd3019382bf07d3f921') in 0.031291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.035739 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Base_color.png
+  artifactKey: Guid(24b4b815423b8d146b0d353bcb559431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Base_color.png using Guid(24b4b815423b8d146b0d353bcb559431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5e41ed2a9bfb49f0d957b02d72ff22') in 0.063312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 58.450592 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Base_color.png
+  artifactKey: Guid(24b4b815423b8d146b0d353bcb559431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/textures/zabor_Base_color.png using Guid(24b4b815423b8d146b0d353bcb559431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff4681cf7582d7cc1d1b338119f8809') in 0.031055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.997098 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/textures/New Material.mat
+  artifactKey: Guid(bbd1a97b42b0cf44186356903ce44481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/textures/New Material.mat using Guid(bbd1a97b42b0cf44186356903ce44481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895db332216a3b8d7fa838c4cb85af80') in 0.073841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 93.453068 seconds.
+  path: Assets/Scenes/Training Ground/home/the-fence/textures/New Material 1.mat
+  artifactKey: Guid(10c2d481db31d2645976ef3af663a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/the-fence/textures/New Material 1.mat using Guid(10c2d481db31d2645976ef3af663a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8883114a13b5f31b016101cde9140cf1') in 0.028898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 84.670253 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections
+  artifactKey: Guid(ea6fdde42eedfaf4798e820588acab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections using Guid(ea6fdde42eedfaf4798e820588acab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7b0a392a8a4879f9a1359f79a45665') in 0.001084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.110071 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source
+  artifactKey: Guid(b6a44769d254f124d82ba3895a7b1584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source using Guid(b6a44769d254f124d82ba3895a7b1584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00dd00572bc422c74c36858de895cbd') in 0.000805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.749192 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack
+  artifactKey: Guid(29b562805eb8fdb4c9151d387d760260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack using Guid(29b562805eb8fdb4c9151d387d760260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11544717c4a6debb686225ae425c62e') in 0.000857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.134085 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/_Thank_You_.png
+  artifactKey: Guid(f66c69227cdac1a4e90537fe7fdc05d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/_Thank_You_.png using Guid(f66c69227cdac1a4e90537fe7fdc05d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cedeee147a7f9387e48a9555e0de163') in 0.056067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_4_Diffuse.png
+  artifactKey: Guid(84bf8a045395c1c41ad724eee064cce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_4_Diffuse.png using Guid(84bf8a045395c1c41ad724eee064cce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb7ff3d14dbdc97df7128f3d94d0b24') in 0.028054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_3_OcclusionRoughMet.png
+  artifactKey: Guid(37e8de6a873b1a348aeda78aeca37fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_3_OcclusionRoughMet.png using Guid(37e8de6a873b1a348aeda78aeca37fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba195de3b4276174a92df929992b4055') in 0.035664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/ExampleTexture_maps.jpg
+  artifactKey: Guid(d3c56f8236f396e40b56e5371625b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/ExampleTexture_maps.jpg using Guid(d3c56f8236f396e40b56e5371625b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04f80e8e6497e7892418fd57dd9b926') in 0.026813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Large_Fence_17_Broken_Large_map_Normal.png
+  artifactKey: Guid(a4871328426c09647946ddb226f3aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Large_Fence_17_Broken_Large_map_Normal.png using Guid(a4871328426c09647946ddb226f3aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf002c014dc3b4c8321942b4659a5f4') in 0.027398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_2_Diffuse.png
+  artifactKey: Guid(0ad78caadbfa1b14b8be500cb3550cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_2_Diffuse.png using Guid(0ad78caadbfa1b14b8be500cb3550cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359f1a8a606a1c52434e81b2f2b45d2a') in 0.029341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Large_Fence_17_Broken_Large_map_Emissive.png
+  artifactKey: Guid(f18c78e400394cd4994205c0a18f0f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Large_Fence_17_Broken_Large_map_Emissive.png using Guid(f18c78e400394cd4994205c0a18f0f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be08c9cfa754127c6eb1fc6448b86fc4') in 0.015550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_1_OcclusionRoughMet.png
+  artifactKey: Guid(1ab7c26568d80c74aa9db6a1c8854e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_1_OcclusionRoughMet.png using Guid(1ab7c26568d80c74aa9db6a1c8854e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30a472a9739f0ed95fc9bc668b9976c') in 0.027095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_11_Door_Fence_11_Door_map_OcclusionRoughMet.png
+  artifactKey: Guid(3ab25c7591457414ab54fc9b70a77897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_11_Door_Fence_11_Door_map_OcclusionRoughMet.png using Guid(3ab25c7591457414ab54fc9b70a77897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7487d42cd3fdb149629a81753e1fe46a') in 0.030968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_2_OcclusionRoughMet.png
+  artifactKey: Guid(45b65e120ed21e346b5da960a4e15298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_2_OcclusionRoughMet.png using Guid(45b65e120ed21e346b5da960a4e15298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f3862b8ae74f5cc6a1a5258473b047') in 0.027066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_11_Door_Fence_11_Door_map_Normal.png
+  artifactKey: Guid(70a0e7f4795545b478b2edaf0836eb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_11_Door_Fence_11_Door_map_Normal.png using Guid(70a0e7f4795545b478b2edaf0836eb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39404ad3b9b69758642f35ba69547f39') in 0.031391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_3_Diffuse.png
+  artifactKey: Guid(d87e185cb3834984a8ca7e784631668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_3_Diffuse.png using Guid(d87e185cb3834984a8ca7e784631668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42031beb4b9238daf4925b5cf0f15fb9') in 0.026228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_3_Normal.png
+  artifactKey: Guid(a139afd1c33437745827c58315a63dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_3_Normal.png using Guid(a139afd1c33437745827c58315a63dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4018942d19d8165b97306ad5e7576c') in 0.032034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Large_Fence_17_Broken_Large_map_Diffuse.png
+  artifactKey: Guid(6bc02482f9bc2ae49b5492569160410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Large_Fence_17_Broken_Large_map_Diffuse.png using Guid(6bc02482f9bc2ae49b5492569160410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80523b27092cea5d0f948988e26f839d') in 0.034682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_11_Door_Fence_11_Door_map_Diffuse.png
+  artifactKey: Guid(c595dcd6c902dee4bb0333443b753bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_11_Door_Fence_11_Door_map_Diffuse.png using Guid(c595dcd6c902dee4bb0333443b753bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b41687e8d11fdcb1ebb6a59f790ec6c') in 0.027486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_2_Normal.png
+  artifactKey: Guid(82df89ce1a6774c44b3115319842a723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_2_Normal.png using Guid(82df89ce1a6774c44b3115319842a723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2bfcf79a1424e5fa25dc2e14cd1e7c') in 0.026049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_4_Emissive.png
+  artifactKey: Guid(b09b73e2ffd883642b5dbe7eeca582d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Example_Texture_4_Emissive.png using Guid(b09b73e2ffd883642b5dbe7eeca582d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdcb0425f36ce112d11ff5caa30a606') in 0.015853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.441618 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Large_Fence_17_Broken_Large_map_OcclusionRoughMet.png
+  artifactKey: Guid(9c2e704292a9e0f48a8ff890ddf8656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Large_Fence_17_Broken_Large_map_OcclusionRoughMet.png using Guid(9c2e704292a9e0f48a8ff890ddf8656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a0818e5ac6e1401e91ffec3457d2f8') in 0.034599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Small_Fence_17_Broken_Small_map_Emissive.png
+  artifactKey: Guid(e8e3d0d27ab2319449c063101678fbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Small_Fence_17_Broken_Small_map_Emissive.png using Guid(e8e3d0d27ab2319449c063101678fbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb89441b4c8080b0721a07f298adbbb3') in 0.018367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Small_Fence_17_Broken_Small_map_OcclusionRoughMet.png
+  artifactKey: Guid(7b222e82b3f6792429911d9bdcee249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Broken_Small_Fence_17_Broken_Small_map_OcclusionRoughMet.png using Guid(7b222e82b3f6792429911d9bdcee249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9467a57d0d07861baf610f84303be2e') in 0.028669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_DE_Fence_17_DE_map_Normal.png
+  artifactKey: Guid(7c1769659c822d04ca72e105bc0865b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_DE_Fence_17_DE_map_Normal.png using Guid(7c1769659c822d04ca72e105bc0865b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9225df4f10ee062674b0b834600ecb3') in 0.028146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_DE_Fence_17_DE_map_OcclusionRoughMet.png
+  artifactKey: Guid(d49e1c88b25e532408c641f7b036247e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_DE_Fence_17_DE_map_OcclusionRoughMet.png using Guid(d49e1c88b25e532408c641f7b036247e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314fcdc260a60cbabbfce80e7aa7bd31') in 0.028810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.098797 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Door_Fence_17_Door_map_Normal.png
+  artifactKey: Guid(ca6dd53747d7551418c1ef81e403f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Fence_17_Door_Fence_17_Door_map_Normal.png using Guid(ca6dd53747d7551418c1ef81e403f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79db871b0e13a535638515efe2a8b79a') in 0.032392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Post_and_Broken_Pieces_Post_and_Broken_Pieces_map_Normal.png
+  artifactKey: Guid(70e3074203db96249bbe289b3b6b2f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Post_and_Broken_Pieces_Post_and_Broken_Pieces_map_Normal.png using Guid(70e3074203db96249bbe289b3b6b2f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e137cd45b6890d452aeb36214815566') in 0.028396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Post_and_Broken_Pieces_Post_and_Broken_Pieces_map_Emissive.png
+  artifactKey: Guid(920692499c063864da24294511644832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Post_and_Broken_Pieces_Post_and_Broken_Pieces_map_Emissive.png using Guid(920692499c063864da24294511644832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacb382279e08f6bc23a8ba3e75cad3e') in 0.012906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Post_and_Broken_Pieces_Post_and_Broken_Pieces_map_OcclusionRoughMet.png
+  artifactKey: Guid(26568dc836178544b9c1e464fc894d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Post_and_Broken_Pieces_Post_and_Broken_Pieces_map_OcclusionRoughMet.png using Guid(26568dc836178544b9c1e464fc894d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e408fed53252f28a7b24640ab3898b') in 0.033529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Post_and_Broken_Pieces_Post_and_Broken_Pieces_map_Diffuse.png
+  artifactKey: Guid(7ab19efdba72b644395b11c02f198207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Training Ground/home/privacy-fence-pack-with-damaged-sections/source/PrivacyFencePack/Post_and_Broken_Pieces_Post_and_Broken_Pieces_map_Diffuse.png using Guid(7ab19efdba72b644395b11c02f198207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb060b6a906d71c45089b8c6e354dd79') in 0.030590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
