@@ -1,6 +1,6 @@
 # The Animal Kingdom
 
-"The Animal Kingdom" is an immersive game developed as the final year project for the Bachelor of Computer Applications (BCA) by Srujan, Aliater, and Preetham from St. Mary's College, Shirva.
+"The Animal Kingdom" is an immersive game developed as the final year project for the Bachelor of Computer Applications (BCA) by Srujan, Alister, and Preetham from St. Mary's College, Shirva.
 
 ## Overview
 
