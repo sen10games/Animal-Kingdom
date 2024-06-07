@@ -16,6 +16,7 @@ Explore a vibrant Amazon jungle, dynamically generated for a unique experience e
 Developed by: Srujan, Aliater, and Preetham from St. Mary's College, Shirva.
 
 Trailer - https://youtu.be/phN5X-O23eU?si=SnT-zp7cy_g1ynif
+
 ScreenShots - 
 
 ![Screenshot 2024-06-05 145220](https://github.com/sen10games/Animal-Kingdom/assets/153161281/17bf799b-554e-4403-b56a-e86c95c5161d)
